@@ -10337,7 +10337,7 @@
 			)
 		)
 	)
-	(global_label "LCD PWM"
+	(global_label "LCD_PWM"
 		(shape bidirectional)
 		(at 267.97 223.52 180)
 		(fields_autoplaced yes)
@@ -10425,7 +10425,7 @@
 			)
 		)
 	)
-	(global_label "MICSWITCH"
+	(global_label "MIC-SWITCH"
 		(shape input)
 		(at 153.67 185.42 0)
 		(fields_autoplaced yes)
@@ -10469,7 +10469,7 @@
 			)
 		)
 	)
-	(global_label "CAMSWITCH"
+	(global_label "CAM SWITCH"
 		(shape input)
 		(at 212.09 179.07 0)
 		(fields_autoplaced yes)
