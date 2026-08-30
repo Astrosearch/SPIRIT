@@ -522,6 +522,42 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.115,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.125,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MIPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.125,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.09,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.15,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -533,6 +569,98 @@
       {
         "netclass": "Default",
         "pattern": "VCC"
+      },
+      {
+        "netclass": "MIPI",
+        "pattern": "DSI1_*"
+      },
+      {
+        "netclass": "MIPI",
+        "pattern": "CAM_CK_*"
+      },
+      {
+        "netclass": "MIPI",
+        "pattern": "CAM_D0_*"
+      },
+      {
+        "netclass": "MIPI",
+        "pattern": "CAM_D1_*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "1D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "1D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "2D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "2D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "CHARGER D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "CHARGER D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "RX1+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "RX1-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "RX2+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "RX2-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "TX1+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "TX1-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "TX2+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "TX2-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "CRX*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "CTX*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "Net-(Module1B-USB3-1-*)"
       }
     ]
   },
