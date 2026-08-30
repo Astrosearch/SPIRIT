@@ -14,7 +14,7 @@ SPIRIT is an open-source smartphone project built around the Raspberry Pi Comput
 - **Main project**: `EDA-kicad/cm5-carrier.kicad_pro` - the primary carrier board design
 - **Hierarchical schematics**: Each subsystem has its own `.kicad_sch` file:
   - `power.kicad_sch` - Power management (battery, charging, regulation)
-  - `audio.kicad_sc.kicad_sch` - Audio codec and amplification
+  - `audio.kicad_sch` - Audio codec and amplification
   - `GSM-GPS.kicad_sch` - Cellular and GPS communication
   - `camera.kicad_sch` - Camera interface and control
   - `screen.kicad_sch` - Display interface
@@ -26,7 +26,7 @@ SPIRIT is an open-source smartphone project built around the Raspberry Pi Comput
 - **Library merger**: Use `component-libs/library-merger.py` to consolidate symbol libraries from component manufacturers
 - **CM5 integration**: `ComputeModule5-libs/` contains official CM5 symbols and footprints
 
-## Development Workflowsudo snap install gh 
+## Development Workflow
 
 ### KiCad Design Rules
 - **Component preferences**: Panasonic first, then Yageo for passives; minimum 0603 package size for SMD components
