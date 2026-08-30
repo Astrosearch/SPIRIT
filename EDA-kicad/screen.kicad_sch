@@ -2616,7 +2616,7 @@
 			)
 		)
 	)
-	(global_label "DIS SDA"
+	(global_label "DIS_SDA"
 		(shape input)
 		(at 162.56 102.87 0)
 		(fields_autoplaced yes)
@@ -2748,7 +2748,7 @@
 			)
 		)
 	)
-	(global_label "DIS SCL"
+	(global_label "DIS_SCL"
 		(shape input)
 		(at 137.16 105.41 180)
 		(fields_autoplaced yes)

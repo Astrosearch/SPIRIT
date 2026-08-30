@@ -23912,4 +23912,675 @@
 		)
 	)
 	(embedded_fonts no)
+	(symbol
+		(lib_id "Device:R")
+		(at 50.0 310.0 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44afd293-369f-4d4c-9f95-f7b76577b55e")
+		(property "Reference" "R43"
+			(at 52.54 308.73 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "4.7k\u03a9"
+			(at 52.54 311.27 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "SPIRIT-footprints:0603-resistor"
+			(at 50.0 310.0 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 50.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 50.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "RC0603FR-074K7L"
+			(at 50.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1" (uuid "e2c56f26-dd0c-4237-bf76-1d558b2fe95b"))
+		(pin "2" (uuid "c8cd79ce-f248-4fa1-afe2-03fa8ffdedce"))
+		(instances
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "3V3B"
+		(shape input)
+		(at 50.0 306.19 270)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "beb223b3-961f-46d5-a390-636b9d0c013b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0 298.57 270)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(global_label "SCL PWR"
+		(shape bidirectional)
+		(at 50.0 313.81 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "ed3f5553-5078-43c4-9826-29f7518cb531")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0 321.43 90)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 70.0 310.0 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "029325eb-93e0-4ee6-b490-330a5746071e")
+		(property "Reference" "R44"
+			(at 72.54 308.73 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "4.7k\u03a9"
+			(at 72.54 311.27 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "SPIRIT-footprints:0603-resistor"
+			(at 70.0 310.0 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 70.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 70.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "RC0603FR-074K7L"
+			(at 70.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1" (uuid "0479ea37-b7a8-4624-939b-5c051ef4f988"))
+		(pin "2" (uuid "3131a163-84a0-4838-ab6a-904e3891892d"))
+		(instances
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "3V3B"
+		(shape input)
+		(at 70.0 306.19 270)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "ea5e1ed1-21c3-447c-a5c1-5d3bda7e82cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.0 298.57 270)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(global_label "SDA PWR"
+		(shape bidirectional)
+		(at 70.0 313.81 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "ab8e08c5-99f3-409d-960c-6c6cb593d5c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.0 321.43 90)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.0 310.0 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1f4d3d8-2bd0-4b34-a283-e12420ddda6e")
+		(property "Reference" "R45"
+			(at 92.54 308.73 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "4.7k\u03a9"
+			(at 92.54 311.27 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "SPIRIT-footprints:0603-resistor"
+			(at 90.0 310.0 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 90.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 90.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "RC0603FR-074K7L"
+			(at 90.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1" (uuid "7fc85cc9-03a2-4048-a5a4-b18751d30b80"))
+		(pin "2" (uuid "9c76431f-ec46-4c49-a128-a203d4185ca3"))
+		(instances
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "3V3B"
+		(shape input)
+		(at 90.0 306.19 270)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "93787ee6-d803-41b3-b205-0c01eb79459a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.0 298.57 270)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(global_label "AUDIO_SCL"
+		(shape bidirectional)
+		(at 90.0 313.81 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "35eb3029-67f6-4416-8a6f-52e46feeaf9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.0 321.43 90)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.0 310.0 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a681e990-1465-4d9e-a123-c20a89a04d78")
+		(property "Reference" "R46"
+			(at 112.54 308.73 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "4.7k\u03a9"
+			(at 112.54 311.27 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "SPIRIT-footprints:0603-resistor"
+			(at 110.0 310.0 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 110.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 110.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "RC0603FR-074K7L"
+			(at 110.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1" (uuid "3f12610e-b147-4190-8d65-063c1f4d24fa"))
+		(pin "2" (uuid "279297bb-4e52-4485-b182-2644e2e955c0"))
+		(instances
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "3V3B"
+		(shape input)
+		(at 110.0 306.19 270)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "42007640-f962-4c07-ae4e-cc2bb28b1ad3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.0 298.57 270)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(global_label "AUDIO_SDA"
+		(shape bidirectional)
+		(at 110.0 313.81 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "f734f95f-b083-4c45-9874-ef0a71b79bf3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.0 321.43 90)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 130.0 310.0 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ec43be2-bb44-4a60-943f-e84f84f21a18")
+		(property "Reference" "R47"
+			(at 132.54 308.73 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "4.7k\u03a9"
+			(at 132.54 311.27 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "SPIRIT-footprints:0603-resistor"
+			(at 130.0 310.0 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 130.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 130.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "RC0603FR-074K7L"
+			(at 130.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1" (uuid "52adf50a-0b12-4a55-951a-6cafd4e58332"))
+		(pin "2" (uuid "2476326f-c3ba-48be-86ea-48605d019ba0"))
+		(instances
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "3V3B"
+		(shape input)
+		(at 130.0 306.19 270)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "f131c8b4-2a4f-48d8-a330-a41bc5623d6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.0 298.57 270)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(global_label "AUDIO_SCL"
+		(shape bidirectional)
+		(at 130.0 313.81 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "b29093ba-6cf5-46a8-8e5a-966557f5929f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.0 321.43 90)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 150.0 310.0 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a0f0dbb-6897-4642-807d-2c84afcbae6b")
+		(property "Reference" "R48"
+			(at 152.54 308.73 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "4.7k\u03a9"
+			(at 152.54 311.27 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "SPIRIT-footprints:0603-resistor"
+			(at 150.0 310.0 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 150.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 150.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "RC0603FR-074K7L"
+			(at 150.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1" (uuid "3ca56818-b629-4ec5-bb9e-e4520bb60fcc"))
+		(pin "2" (uuid "50817ae1-6d9f-41c2-bc3b-1fd6f4dd2b0b"))
+		(instances
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "3V3B"
+		(shape input)
+		(at 150.0 306.19 270)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "9de222b7-0f19-48ee-adee-635e8488251c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.0 298.57 270)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(global_label "AUDIO_SDA"
+		(shape bidirectional)
+		(at 150.0 313.81 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "5b865082-5752-4abc-b448-6e9f9c10da22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.0 321.43 90)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.0 310.0 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e320baf-2c14-4130-a4e2-ba2d576b620e")
+		(property "Reference" "R49"
+			(at 172.54 308.73 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "4.7k\u03a9"
+			(at 172.54 311.27 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "SPIRIT-footprints:0603-resistor"
+			(at 170.0 310.0 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 170.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 170.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "RC0603FR-074K7L"
+			(at 170.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1" (uuid "04ff8250-139a-47d5-81b1-7dbd938b19ba"))
+		(pin "2" (uuid "d057688f-1df4-449d-bed2-ee859ccb41d4"))
+		(instances
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "3V3B"
+		(shape input)
+		(at 170.0 306.19 270)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "3ac6deb3-c2ac-4b86-bb4b-d2553d833902")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.0 298.57 270)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(global_label "DIS_SCL"
+		(shape bidirectional)
+		(at 170.0 313.81 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "b07d5e4b-049d-467f-b336-83ceb84e51c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.0 321.43 90)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.0 310.0 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4266d53-333b-4d30-b5d8-85b8b19a704b")
+		(property "Reference" "R50"
+			(at 192.54 308.73 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "4.7k\u03a9"
+			(at 192.54 311.27 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "SPIRIT-footprints:0603-resistor"
+			(at 190.0 310.0 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 190.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 190.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "RC0603FR-074K7L"
+			(at 190.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1" (uuid "276c9406-910d-4be7-8cf3-ba16837d4602"))
+		(pin "2" (uuid "548ca813-49af-4eb2-b73c-91eb951a0d96"))
+		(instances
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "3V3B"
+		(shape input)
+		(at 190.0 306.19 270)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "b0ec4c5f-46bd-46b2-aaa4-d96435fa5e92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.0 298.57 270)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(global_label "DIS_SDA"
+		(shape bidirectional)
+		(at 190.0 313.81 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "337d554f-7bf7-4c7d-b62d-6ce45394ff00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.0 321.43 90)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.0 310.0 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "764bd0cf-33df-4510-a6d4-1bd246873776")
+		(property "Reference" "R51"
+			(at 212.54 308.73 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "4.7k\u03a9"
+			(at 212.54 311.27 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "SPIRIT-footprints:0603-resistor"
+			(at 210.0 310.0 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 210.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 210.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "RC0603FR-074K7L"
+			(at 210.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1" (uuid "567500ce-4fa6-4a64-a2b6-1b12c8221f98"))
+		(pin "2" (uuid "36057378-9076-4aa8-b486-fefb91befb32"))
+		(instances
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "3V3B"
+		(shape input)
+		(at 210.0 306.19 270)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "fb6bd714-bbe4-48f8-a17f-b932c1ad27e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.0 298.57 270)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(global_label "SCL CH"
+		(shape bidirectional)
+		(at 210.0 313.81 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "4df240e1-55d9-4883-a757-8e14e453cbb3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.0 321.43 90)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 230.0 310.0 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58155dbc-6ae1-4fce-a45b-f19e051cfb51")
+		(property "Reference" "R52"
+			(at 232.54 308.73 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Value" "4.7k\u03a9"
+			(at 232.54 311.27 0)
+			(effects (font (size 1.27 1.27)) (justify left))
+		)
+		(property "Footprint" "SPIRIT-footprints:0603-resistor"
+			(at 230.0 310.0 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 230.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Description" "Resistor"
+			(at 230.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "MPN" "RC0603FR-074K7L"
+			(at 230.0 310.0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(pin "1" (uuid "2f58b2ad-2aa6-4e9e-9cad-bda9ded6c7a7"))
+		(pin "2" (uuid "04f798bb-c758-4cf3-84eb-34f4b7e69ea0"))
+		(instances
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "3V3B"
+		(shape input)
+		(at 230.0 306.19 270)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "cca55087-6ae1-46cf-a70c-750a7c562ef1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 230.0 298.57 270)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+	(global_label "SDA CH"
+		(shape bidirectional)
+		(at 230.0 313.81 90)
+		(fields_autoplaced yes)
+		(effects (font (size 1.27 1.27)) (justify right))
+		(uuid "3ad934e5-30ab-4771-9644-2ae654618c99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 230.0 321.43 90)
+			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
+		)
+	)
+
 )
