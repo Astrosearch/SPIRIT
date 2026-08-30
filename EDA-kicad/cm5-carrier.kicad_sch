@@ -39729,6 +39729,30 @@
 				)
 			)
 		)
+		(property "BOM Comments" "CM5 16GB RAM / 64GB eMMC / Wireless (RPi SKU SC1608)" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Raspberry Pi" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CM5116064" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "141"
 			(uuid "311f526c-bbfc-468c-b846-8db61e48d566")
 		)
@@ -42817,6 +42841,30 @@
 				(hide yes)
 			)
 		)
+		(property "BOM Comments" "10k NTC B=4250K 0201 (charger TS sensing)" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERT-J0EG103FA" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c396a49-692b-418d-9103-1c97373c3fcc")
 		)
@@ -44047,6 +44095,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "BOM Comments" "CM5 16GB RAM / 64GB eMMC / Wireless (RPi SKU SC1608)" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Raspberry Pi" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CM5116064" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "141"
