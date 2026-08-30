@@ -6712,13 +6712,21 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Pui Audio"
+		(property "MANUFACTURER" "PUI Audio"
 			(at 265.43 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AS01506MS-SC15-WP-2-R" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7631,13 +7639,21 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Pui Audio"
+		(property "MANUFACTURER" "PUI Audio"
 			(at 265.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AS01506MS-SC15-WP-2-R" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

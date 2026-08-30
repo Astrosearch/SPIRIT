@@ -12224,6 +12224,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Texas Instruments" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HD3SS460RHRR" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "e61e12c3-1006-4179-86a5-1b9a0f5f6492")
 		)
@@ -12755,6 +12771,22 @@
 		)
 		(property "Description" ""
 			(at 231.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TUSB321RWBR" (at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -13733,6 +13733,14 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "FLTS22WR00" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f292d9b5-eca3-4124-bc19-99447f60d894")
 		)
@@ -15220,6 +15228,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "C&K" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CSS-1210MC" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb51a345-e43d-48cd-a9d5-53a5a525311e")
 		)
@@ -15269,7 +15293,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPIRIT-footprints:0603-resistor"
 			(at 248.92 76.708 90)
 			(effects
 				(font
@@ -15624,6 +15648,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "C&K" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CSS-1210MC" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea924360-083c-4ece-b870-a28ac2a4ea74")
 		)
@@ -15769,6 +15809,22 @@
 		)
 		(property "Description" ""
 			(at 275.59 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Diodes Incorporated" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AP3032KTR-G1" (at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16235,6 +16291,22 @@
 		)
 		(property "Description" ""
 			(at 284.48 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LQH44PN6R8MPRL" (at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17632,6 +17704,14 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BQ25792RQMR" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -20978,6 +21058,22 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "Littelfuse" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1210L900SLPR" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4da098cc-bb8b-4233-98be-082184bd4738")
 		)
@@ -21458,6 +21554,22 @@
 		)
 		(property "Description" ""
 			(at 328.93 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS65023BRSBR" (at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22195,6 +22307,22 @@
 		)
 		(property "Description" ""
 			(at 158.75 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C&K" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CSS-1210MC" (at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

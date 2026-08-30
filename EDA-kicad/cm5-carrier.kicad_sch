@@ -39621,6 +39621,30 @@
 				(hide yes)
 			)
 		)
+		(property "BOM Comments" "Generic 0.33uF 50V X7R 0603 - validate/substitute" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R71H334KA01D" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d36b2adb-729e-45f0-bd49-ac8aba9b4962")
 		)
@@ -41093,6 +41117,30 @@
 				(hide yes)
 			)
 		)
+		(property "BOM Comments" "Generic 0.33uF 50V X7R 0603 - validate/substitute" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R71H334KA01D" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4a4627e0-884a-4142-b38c-7e71099b76b6")
 		)
@@ -41485,6 +41533,30 @@
 		)
 		(property "Description" ""
 			(at 462.28 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "Generic 0.33uF 50V X7R 0603 - validate/substitute" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R71H334KA01D" (at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43268,6 +43340,30 @@
 		)
 		(property "Description" ""
 			(at 462.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "Generic 0.33uF 50V X7R 0603 - validate/substitute" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata" (at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R71H334KA01D" (at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
