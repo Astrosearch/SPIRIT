@@ -965,7 +965,7 @@
 			)
 		)
 	)
-	(global_label "GPIO4"
+	(global_label "GPIO15"
 		(shape input)
 		(at 148.59 85.09 0)
 		(fields_autoplaced yes)

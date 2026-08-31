@@ -8156,10 +8156,6 @@
 		(uuid "6644810d-303a-401a-a670-9ee0f3854763")
 	)
 	(no_connect
-		(at 354.33 143.51)
-		(uuid "6eb2a61c-38b3-4469-8279-553cc6e34d00")
-	)
-	(no_connect
 		(at 303.53 118.11)
 		(uuid "b7480cce-be4d-40e1-a071-621844ed6960")
 	)
@@ -10403,7 +10399,7 @@
 			)
 		)
 	)
-	(global_label "~{CE}"
+	(global_label "GND"
 		(shape bidirectional)
 		(at 90.17 110.49 180)
 		(fields_autoplaced yes)
@@ -10711,7 +10707,7 @@
 			)
 		)
 	)
-	(global_label "EN1V8"
+	(global_label "SYS"
 		(shape bidirectional)
 		(at 303.53 151.13 180)
 		(fields_autoplaced yes)
@@ -10733,7 +10729,7 @@
 			)
 		)
 	)
-	(global_label "EN3V3A"
+	(global_label "SYS"
 		(shape bidirectional)
 		(at 110.49 180.34 0)
 		(fields_autoplaced yes)
@@ -11129,7 +11125,7 @@
 			)
 		)
 	)
-	(global_label "EN3V3B"
+	(global_label "SYS"
 		(shape bidirectional)
 		(at 303.53 153.67 180)
 		(fields_autoplaced yes)
@@ -22259,6 +22255,90 @@
 			)
 		)
 	)
+(symbol
+		(lib_id "Device:R")
+		(at 375.92 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d046447-856f-472f-9579-142e122d0d88")
+		(property "Reference" "R53"
+			(at 373.38 161.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 384.81 161.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:0603-resistor"
+			(at 375.92 161.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 160.020 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 375.92 160.020 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
+			(at 375.92 160.020 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db9deefa-aee0-49ec-9108-55b4af7b7933")
+		)
+		(pin "1"
+			(uuid "37431186-3de8-4182-97c7-bdaebae4186f")
+		)
+		(instances
+			(project "cm5-carrier"
+				(path "/28c5e4fe-1ec7-4477-97f0-d2ec1401fad5/59851108-1ec5-49a1-aa9b-d5428f895885"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+			(project "power"
+				(path "/446f2954-4486-4a73-ab5d-988e1515679d"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "SPIRIT-components:privacy-switch-CSS-1210MC")
 		(at 158.75 182.88 0)
@@ -24034,6 +24114,102 @@
 			)
 		)
 	)
+	(global_label "~{RESPWRON}"
+		(shape output)
+		(at 354.33 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adb9e163-cb74-40c7-b642-59779f7ddf04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 354.33 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 110.49 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "507154f2-7aad-4401-b4ff-03a788f80c60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(no_connect
+		(at 210 313.81)
+		(uuid "a845d28b-a9e4-4185-bcc5-d258b8c38672")
+	)
+	(no_connect
+		(at 230 313.81)
+		(uuid "45b54791-e60a-4f7d-ae57-a6dbd21142f8")
+	)
+	(global_label "USB SWITCH"
+		(shape input)
+		(at 372.11 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e59a57a-c75b-423c-bc3b-5fd2ab290d1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 372.11 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 379.73 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcb3c1cf-b032-47bb-9e3d-8a18bdc9784f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 379.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
@@ -24583,7 +24759,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "764bd0cf-33df-4510-a6d4-1bd246873776")
 		(property "Reference" "R51"
@@ -24632,17 +24808,6 @@
 			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
 		)
 	)
-	(global_label "SCL CH"
-		(shape bidirectional)
-		(at 210.0 313.81 90)
-		(fields_autoplaced yes)
-		(effects (font (size 1.27 1.27)) (justify right))
-		(uuid "4df240e1-55d9-4883-a757-8e14e453cbb3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.0 321.43 90)
-			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
-		)
-	)
 	(symbol
 		(lib_id "Device:R")
 		(at 230.0 310.0 0)
@@ -24650,7 +24815,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "58155dbc-6ae1-4fce-a45b-f19e051cfb51")
 		(property "Reference" "R52"
@@ -24696,17 +24861,6 @@
 		(uuid "cca55087-6ae1-46cf-a70c-750a7c562ef1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 230.0 298.57 270)
-			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
-		)
-	)
-	(global_label "SDA CH"
-		(shape bidirectional)
-		(at 230.0 313.81 90)
-		(fields_autoplaced yes)
-		(effects (font (size 1.27 1.27)) (justify right))
-		(uuid "3ad934e5-30ab-4771-9644-2ae654618c99")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.0 321.43 90)
 			(effects (font (size 1.27 1.27)) (justify right) (hide yes))
 		)
 	)

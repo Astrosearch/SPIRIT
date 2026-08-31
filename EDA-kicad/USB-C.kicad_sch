@@ -11069,28 +11069,6 @@
 			)
 		)
 	)
-	(global_label "SSTX2+"
-		(shape bidirectional)
-		(at 153.67 181.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a5ba2913-d822-4a07-a41b-97268f1be974")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.1445 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USBC POW"
 		(shape bidirectional)
 		(at 82.55 46.99 0)
@@ -11104,28 +11082,6 @@
 		(uuid "b05f7283-ff5e-44b3-b4dd-09cf734f8f1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 96.746 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SSTX2-"
-		(shape bidirectional)
-		(at 153.67 179.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b06b8aae-d5e8-41c5-b868-a895a0a5fce1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.1445 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11465,28 +11421,6 @@
 			)
 		)
 	)
-	(global_label "SSTR2+"
-		(shape bidirectional)
-		(at 153.67 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d6e68f7b-3459-4dc6-8a1d-91a09590e674")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.205 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CHARGER D+"
 		(shape bidirectional)
 		(at 223.52 81.28 0)
@@ -11527,28 +11461,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SSTR2-"
-		(shape bidirectional)
-		(at 153.67 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e86919fe-a9b7-4092-84cc-3e3f6e084fc8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.205 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -13336,5 +13248,21 @@
 				)
 			)
 		)
+	)
+	(no_connect
+		(at 153.67 181.61)
+		(uuid "226813fd-d166-42e4-80a9-1c7ab29f4a4b")
+	)
+	(no_connect
+		(at 153.67 179.07)
+		(uuid "3b510b8a-e17d-486e-8c56-d73edbe4b346")
+	)
+	(no_connect
+		(at 153.67 170.18)
+		(uuid "ef80ce53-d654-4cab-b335-3484b51f2691")
+	)
+	(no_connect
+		(at 153.67 172.72)
+		(uuid "bc9c98f7-0003-4ccd-a172-6d18d22b5f3a")
 	)
 )
