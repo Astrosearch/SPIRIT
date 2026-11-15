@@ -10,10 +10,9 @@ Generated: 2026-11-15 · Toolchain: **awecad** (editor + `awe pcb` CLI) + KiCad 
    - 2 genuine multi-net pin conflicts reported (R43: 3V3B vs `Net-(U14-EN)`, 3V3B vs `SCL PWR`) — schematic-side, needs a schematic decision
    - result: 129 footprints / 148 nets, matching the schematic exactly (net-audit PASS since 38fb87a)
 
-2. **Auto-routing** (`awe pcb fw drive`, improve-only gate, run with pcbnew in the app-kicad container):
-   - purge-shorts: short 4 → **0**
-   - stitched same-layer / power phases: kept 55, unconnected 316 → **261**
-   - second drive run stalls (improve-only gate rejects anything that raises shorts/contacts) — hard residual remains (below)
+2. **Auto-routing**, two awe stages (both run with the KiCad 10 pcbnew/kicad-cli inside the app-kicad container):
+   - `awe pcb fw drive` (improve-only gate): purge-shorts 4 → **0**, stitch same-layer/power phases: unconnected 316 → **261**
+   - `awecad_solver` (`python3 -m awecad_solver.solve`, numpy screen + windowed A*, gated batches via `awe pcb fab-ready --check`): unconnected 261 → **119 and falling** (short=0, cross=0 on every kept batch; batches that would raise a short are reverted/bisected automatically). Run log: session scratchpad `solver-repo2.log`; screening clearance set to the board's 0.2 mm rule.
 
 3. **awecad verification (isolated CUA desktop, podman `cua-desktop`)**:
    - imported the board into awecad, "Resync from netlist" is idempotent on the resynced board (`0 pins rewired · removed 0`)
@@ -24,21 +23,22 @@ Generated: 2026-11-15 · Toolchain: **awecad** (editor + `awe pcb` CLI) + KiCad 
 
 ## Metrics (full kicad-cli DRC, severity-all, uncapped)
 
-| metric | before (02282b0) | after |
+| metric | before (02282b0) | after (solver in progress) |
 |---|---:|---:|
 | footprints | 138 (incl. 9 stray/dup) | 129 (netlist-exact) |
 | nets | 449 (fragmented) | 148 (schematic-exact) |
 | shorting_items | 2 (fab-ready counted 4 + 8 zero-distance) | **0** |
-| unconnected_items | 302 | **261** |
-| clearance violations | 340 | **87** |
-| `awe pcb fab-ready --check` | NOT-FAB-READY (unconn 302, short 4) | NOT-FAB-READY (unconn 261, short **0**) |
+| unconnected_items | 302 | **119** (was 261 after fw drive; awecad_solver still running) |
+| clearance violations | 340 | ~110–150 (tracks added by solver) |
+| `awe pcb fab-ready --check` | NOT-FAB-READY (unconn 302, short 4) | NOT-FAB-READY (unconn ~119, short **0**) |
 
 ## Remaining work (bare fab = NO-GO until unconn = 0)
 
-261 unconnected items (worklist `fab-fw/worklist.json`): same_layer 78 · same_layer_long 65 · deep_via 58 · out_of_range 44 · power_deep 7 · shallow_via 2 · power_shallow 5 · signal_shallow 1. Top nets: GND 119, 3V3B 11, VCC 8, SYS 7, TX1±/RX1± (USB diff pairs).
+~119 unconnected items remain (deep_via / out_of_range / same_layer_long — the dense core). Top net: GND.
 
-- `awe pcb route-safe` (FreeRouting) **times out** on this dense 6L HDI board (900 s full-board; net batches of 10 complete but the improve-only guard rejects them — rip-up cost exceeds gain). Manual routing is the productive path for the residual.
-- Route in **awecad** 2D layout editor (route toolbar: pick net → click pads → Enter) or Pcbnew; then re-run `awe pcb fab-ready --check`.
+- `awecad_solver` continues gated rounds in the background (`solver-repo2.log`); each kept batch has short=0 cross=0 by gate.
+- `awe pcb route-safe` (FreeRouting) **times out** on this dense 6L HDI board (900 s full-board; net batches of 10 complete but the improve-only guard rejects them — rip-up cost exceeds gain). Manual routing is the fallback for the residual.
+- Route in **awecad** 2D layout editor (route toolbar: pick net → click pads → Enter; verified end-to-end via CUA in the isolated desktop) or Pcbnew; then re-run `awe pcb fab-ready --check`.
 - 2 schematic-side pin conflicts on R43 to resolve in the schematic, then re-run the awecad resync.
 - Non-blocking DRC noise (track_width 196, text_height 79, courtyard/mask items) — cosmetic/DRC-tuning, not fab blockers for bare board; review before PCBA.
 

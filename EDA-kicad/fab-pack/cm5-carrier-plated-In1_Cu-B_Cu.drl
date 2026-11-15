@@ -1,0 +1,11 @@
+M48
+; AWECAD native plated-In1_Cu-B_Cu holes
+; #@! TF.FileFunction,Plated,plated-In1_Cu-B_Cu
+METRIC,LZ
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T1C0.130000
+%
+G90
+T1
+X93.100000Y181.200000
+M30

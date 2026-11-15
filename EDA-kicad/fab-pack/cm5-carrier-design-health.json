@@ -4,7 +4,7 @@
   "score": 0,
   "grade": "F",
   "errors": 68,
-  "warnings": 506,
+  "warnings": 589,
   "info": 5,
   "sections": [
     {
@@ -12,8 +12,8 @@
       "name": "DRC-lite",
       "ok": true,
       "errors": 0,
-      "warnings": 86,
-      "count": 87
+      "warnings": 169,
+      "count": 170
     },
     {
       "id": "erc",
@@ -584,7 +584,7 @@
     },
     "outlinePts": 47,
     "cutouts": 4,
-    "vias": 109,
+    "vias": 207,
     "zones": 11,
     "layers": 6,
     "thickness_mm": 1.511,
@@ -597,7 +597,7 @@
   },
   "project": "cm5-carrier",
   "source": "kicad-pcb",
-  "generatedAt": "2026-11-15T04:46:30.563Z",
+  "generatedAt": "2026-11-15T07:19:56.064Z",
   "presentationOnly": true,
   "authorityRewrite": false,
   "detail": {
@@ -1546,12 +1546,12 @@
         "layer_count": 6,
         "thickness_mm": 1.511,
         "cutouts": 4,
-        "vias": 109,
+        "vias": 207,
         "via_kinds": {
           "micro": 0,
-          "blind": 27,
-          "buried": 41,
-          "through": 41,
+          "blind": 117,
+          "buried": 42,
+          "through": 48,
           "other": 0
         },
         "min_drill_mm": 0.12,
@@ -1569,7 +1569,7 @@
     "drc": {
       "ok": true,
       "errors": 0,
-      "warnings": 86,
+      "warnings": 169,
       "issues": [
         {
           "level": "warn",
@@ -1998,6 +1998,421 @@
         },
         {
           "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.065 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.075 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.075 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.075 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.075 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.075 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.075 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.075 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.075 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.075 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
           "code": "DIFF_SKEW",
           "msg": "Diff pair TX1 skew ≈ 0.85 mm (tol 0.5 mm) · TX1+/TX1-",
           "net": "TX1+"
@@ -2046,8 +2461,8 @@
         "gndNets": 2,
         "emptyNets": 0,
         "outlinePts": 47,
-        "vias": 109,
-        "tracks": 147,
+        "vias": 207,
+        "tracks": 325,
         "zones": 11,
         "layer_count": 6,
         "thickness_mm": 1.511,
@@ -2208,7 +2623,7 @@
         "U15"
       ],
       "jlcReady": false,
-      "generatedAt": "2026-11-15T04:46:30.558Z",
+      "generatedAt": "2026-11-15T07:19:56.052Z",
       "presentationOnly": true,
       "authorityRewrite": false,
       "honesty": "BOM field completeness for any board · not live stock/pricing"
