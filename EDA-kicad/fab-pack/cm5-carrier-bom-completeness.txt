@@ -1,0 +1,19 @@
+BOM completeness (any ECAD board)
+════════════════════════════════
+Grade F · score 35/100 · 54 line(s)
+Project: cm5-carrier
+
+Coverage:
+  MPN          0% (0/54)
+  Package      100% (54/54)
+  LCSC         0% (0/54)
+  Manufacturer 0% (0/54)
+  Value        100% (54/54)
+  Datasheet    0% (0/54)
+
+JLCPCB-ready: no (missing LCSC on some lines)
+
+Missing MPN (sample): U10, R40, C48, C41, C30, C34, C50, C39, C35, C40, C47, C46, C29, C49, C33, C36, C58, C51, C57, C43, C56, C65, C62, C60, C61, R12, C3, C4, C2, C1, SW3, C63, R27, TP3, TP5, TP6, TP4, R25, R43, R9, R8, R30, C31
+Missing LCSC (sample): U10, R40, C48, C41, C30, C34, C50, C39, C35, C40, C47, C46, C29, C49, C33, C36, C58, C51, C57, C43, C56, C65, C62, C60, C61, R12, C3, C4, C2, C1, SW3, C63, R27, TP3, TP5, TP6, TP4, R25, R43, R9, R8, R30, C31
+
+BOM field completeness for any board · not live stock/pricing

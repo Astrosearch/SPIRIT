@@ -1,0 +1,2217 @@
+{
+  "schema": "awe.design-health/v1",
+  "ok": false,
+  "score": 0,
+  "grade": "F",
+  "errors": 68,
+  "warnings": 506,
+  "info": 5,
+  "sections": [
+    {
+      "id": "drc",
+      "name": "DRC-lite",
+      "ok": true,
+      "errors": 0,
+      "warnings": 86,
+      "count": 87
+    },
+    {
+      "id": "erc",
+      "name": "ERC-lite",
+      "ok": true,
+      "errors": 0,
+      "warnings": 0,
+      "count": 0
+    },
+    {
+      "id": "connectivity",
+      "name": "Connectivity",
+      "ok": true,
+      "errors": 0,
+      "warnings": 307,
+      "count": 307,
+      "unplaced": 0
+    },
+    {
+      "id": "clash",
+      "name": "Package clash",
+      "ok": false,
+      "errors": 68,
+      "warnings": 59,
+      "count": 127
+    },
+    {
+      "id": "bom",
+      "name": "BOM checks",
+      "ok": true,
+      "errors": 0,
+      "warnings": 21,
+      "count": 22
+    },
+    {
+      "id": "route",
+      "name": "Route (clearance + ratsnest)",
+      "ok": true,
+      "errors": 0,
+      "warnings": 0,
+      "count": 0
+    },
+    {
+      "id": "constraints",
+      "name": "Constraints (lite)",
+      "ok": true,
+      "errors": 0,
+      "warnings": 33,
+      "count": 36
+    },
+    {
+      "id": "bom-completeness",
+      "name": "BOM completeness",
+      "ok": false,
+      "errors": 1,
+      "warnings": 1,
+      "count": 30,
+      "score": 35,
+      "grade": "F",
+      "pctMpn": 0,
+      "pctLcsc": 0
+    }
+  ],
+  "issues": [
+    {
+      "level": "warn",
+      "code": "PINS_OPEN",
+      "msg": "19900fb5-460f-4d6c-82c1-d522609838d4 pins not linked to any net",
+      "component": "19900fb5-460f-4d6c-82c1-d522609838d4",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "PINS_OPEN",
+      "msg": "2700e550-b644-410d-ad80-b2f5b1435970 pins not linked to any net",
+      "component": "2700e550-b644-410d-ad80-b2f5b1435970",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "PINS_OPEN",
+      "msg": "9872c5b2-ed0c-4d80-9ace-ba8fcd9f95b9 pins not linked to any net",
+      "component": "9872c5b2-ed0c-4d80-9ace-ba8fcd9f95b9",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "PINS_OPEN",
+      "msg": "a8017466-ef5d-4dd0-bf65-600ee1844c9d pins not linked to any net",
+      "component": "a8017466-ef5d-4dd0-bf65-600ee1844c9d",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "PINS_OPEN",
+      "msg": "d16daaa0-520f-4f1b-b75b-9242cda00790 pins not linked to any net",
+      "component": "d16daaa0-520f-4f1b-b75b-9242cda00790",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.100 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.100 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.100 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.100 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.085 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.100 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.100 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.100 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.100 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.100 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.100 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.100 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    },
+    {
+      "level": "warn",
+      "code": "DRC_ANNULAR_RING",
+      "msg": "Via v annular ring 0.080 mm < 0.12 mm min",
+      "section": "drc"
+    }
+  ],
+  "stats": {
+    "components": 129,
+    "nets": 148,
+    "placed": 129,
+    "unplaced": 0,
+    "dnp": 30,
+    "byType": {
+      "ic": 11,
+      "resistor": 32,
+      "capacitor": 44,
+      "connector": 5,
+      "switch": 7,
+      "other": 12,
+      "diode": 4,
+      "inductor": 9,
+      "transistor": 4,
+      "fuse": 1
+    },
+    "outlinePts": 47,
+    "cutouts": 4,
+    "vias": 109,
+    "zones": 11,
+    "layers": 6,
+    "thickness_mm": 1.511,
+    "hdi": true,
+    "hdi_class": "multilayer",
+    "density_per_cm2": 1.2,
+    "Vbus": 24,
+    "harness_mm": 0,
+    "harness_ohm": 0
+  },
+  "project": "cm5-carrier",
+  "source": "kicad-pcb",
+  "generatedAt": "2026-11-15T04:46:30.563Z",
+  "presentationOnly": true,
+  "authorityRewrite": false,
+  "detail": {
+    "bom": {
+      "ok": true,
+      "errors": 0,
+      "warnings": 21,
+      "info": 1,
+      "issues": [
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "U10 has no MPN/IPN",
+          "component": "015d0762-e044-4c55-bbb0-9b5c40453d3a"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "R40 has no MPN/IPN",
+          "component": "01b3ed4c-ec2d-44f1-9530-437eba1b0a74"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "C48 has no MPN/IPN",
+          "component": "02069377-eb36-4491-a7c5-e1dd3ea75f71"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "C36 has no MPN/IPN",
+          "component": "031e91eb-b0ab-4f94-91d1-6f50d1dd7613"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "R12 has no MPN/IPN",
+          "component": "03d4cd17-694e-4495-9ed1-73556229ede6"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "C3 has no MPN/IPN",
+          "component": "05fa57fe-70b2-4567-ad43-7edf5a8d337a"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "C58 has no MPN/IPN",
+          "component": "07a49240-4ebc-4c99-85ab-2e549a2b9fc1"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "C4 has no MPN/IPN",
+          "component": "08219286-85eb-4c2f-9236-de131d4a16e6"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "SW3 has no MPN/IPN",
+          "component": "09a11d51-65a1-49c7-b450-028a52c8c248"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "C63 has no MPN/IPN",
+          "component": "0bb188c9-e39a-4fb1-b7b0-537df3451cf9"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "C41 has no MPN/IPN",
+          "component": "0dd172bb-61c5-45ab-91da-9697a306a301"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "R27 has no MPN/IPN",
+          "component": "0efe513d-6bb6-44ed-a536-8fa9b5e558be"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "TP3 has no MPN/IPN",
+          "component": "0fb1691d-e114-4f9b-b8bf-0a50f68f5880"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "R25 has no MPN/IPN",
+          "component": "144798f7-0277-4f32-8018-fcbd56b39d1b"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "C31 has no MPN/IPN",
+          "component": "1959613e-05f9-4f67-a531-712d7b0301e2"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "TP5 has no MPN/IPN",
+          "component": "1e46bb00-25eb-4ef3-92bb-4580d51c3e85"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "C30 has no MPN/IPN",
+          "component": "22c40f74-c611-40b6-809e-3d9bc32c5b66"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "C55 has no MPN/IPN",
+          "component": "24c70c4c-4658-42b2-9afa-f563c6def055"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "C34 has no MPN/IPN",
+          "component": "26906c48-c08b-4c28-9495-958e657957a8"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "R43 has no MPN/IPN",
+          "component": "28a26d06-1f88-4294-b101-7f5dc94732ee"
+        },
+        {
+          "level": "warn",
+          "code": "BOM_NO_MPN",
+          "msg": "99 parts missing MPN/IPN"
+        },
+        {
+          "level": "info",
+          "code": "BOM_DNP",
+          "msg": "30 DNP component(s) (excluded from production BOM by default)"
+        }
+      ],
+      "lines": 78,
+      "components": 99,
+      "dnp": 30,
+      "missingMpn": 99,
+      "missingPkg": 0,
+      "project": "cm5-carrier"
+    },
+    "clash": {
+      "ok": false,
+      "errors": 68,
+      "warnings": 59,
+      "issues": [
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "U10 center outside board (or in cutout)",
+          "a": "U10"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "U10 package overhangs board envelope",
+          "a": "U10"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R40 center outside board (or in cutout)",
+          "a": "R40"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R40 package overhangs board envelope",
+          "a": "R40"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C36 center outside board (or in cutout)",
+          "a": "C36"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C36 package overhangs board envelope",
+          "a": "C36"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C58 center outside board (or in cutout)",
+          "a": "C58"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C58 package overhangs board envelope",
+          "a": "C58"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C63 center outside board (or in cutout)",
+          "a": "C63"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C63 package overhangs board envelope",
+          "a": "C63"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "TP3 center outside board (or in cutout)",
+          "a": "TP3"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "TP3 package overhangs board envelope",
+          "a": "TP3"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "TP5 center outside board (or in cutout)",
+          "a": "TP5"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "TP5 package overhangs board envelope",
+          "a": "TP5"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C55 center outside board (or in cutout)",
+          "a": "C55"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C55 package overhangs board envelope",
+          "a": "C55"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C34 center outside board (or in cutout)",
+          "a": "C34"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C34 package overhangs board envelope",
+          "a": "C34"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R43 center outside board (or in cutout)",
+          "a": "R43"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R43 package overhangs board envelope",
+          "a": "R43"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "ZD1 center outside board (or in cutout)",
+          "a": "ZD1"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "ZD1 package overhangs board envelope",
+          "a": "ZD1"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C51 center outside board (or in cutout)",
+          "a": "C51"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C51 package overhangs board envelope",
+          "a": "C51"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "TP6 center outside board (or in cutout)",
+          "a": "TP6"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "TP6 package overhangs board envelope",
+          "a": "TP6"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "U11 center outside board (or in cutout)",
+          "a": "U11"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "U11 package overhangs board envelope",
+          "a": "U11"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C53 center outside board (or in cutout)",
+          "a": "C53"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C53 package overhangs board envelope",
+          "a": "C53"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "BAT1 center outside board (or in cutout)",
+          "a": "BAT1"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "Q2 center outside board (or in cutout)",
+          "a": "Q2"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "Q2 package overhangs board envelope",
+          "a": "Q2"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "L4 center outside board (or in cutout)",
+          "a": "L4"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "L4 package overhangs board envelope",
+          "a": "L4"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C57 center outside board (or in cutout)",
+          "a": "C57"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C57 package overhangs board envelope",
+          "a": "C57"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C43 center outside board (or in cutout)",
+          "a": "C43"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C43 package overhangs board envelope",
+          "a": "C43"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R31 center outside board (or in cutout)",
+          "a": "R31"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R31 package overhangs board envelope",
+          "a": "R31"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R18 center outside board (or in cutout)",
+          "a": "R18"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R18 package overhangs board envelope",
+          "a": "R18"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C52 center outside board (or in cutout)",
+          "a": "C52"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C52 package overhangs board envelope",
+          "a": "C52"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R37 center outside board (or in cutout)",
+          "a": "R37"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R37 package overhangs board envelope",
+          "a": "R37"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "L1 center outside board (or in cutout)",
+          "a": "L1"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "L1 package overhangs board envelope",
+          "a": "L1"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "U15 center outside board (or in cutout)",
+          "a": "U15"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "U15 package overhangs board envelope",
+          "a": "U15"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C32 center outside board (or in cutout)",
+          "a": "C32"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C32 package overhangs board envelope",
+          "a": "C32"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R9 center outside board (or in cutout)",
+          "a": "R9"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R9 package overhangs board envelope",
+          "a": "R9"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C35 center outside board (or in cutout)",
+          "a": "C35"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C35 package overhangs board envelope",
+          "a": "C35"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C59 center outside board (or in cutout)",
+          "a": "C59"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C59 package overhangs board envelope",
+          "a": "C59"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C66 center outside board (or in cutout)",
+          "a": "C66"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C66 package overhangs board envelope",
+          "a": "C66"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R21 center outside board (or in cutout)",
+          "a": "R21"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R21 package overhangs board envelope",
+          "a": "R21"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R26 center outside board (or in cutout)",
+          "a": "R26"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R26 package overhangs board envelope",
+          "a": "R26"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R34 center outside board (or in cutout)",
+          "a": "R34"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R34 package overhangs board envelope",
+          "a": "R34"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C56 center outside board (or in cutout)",
+          "a": "C56"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C56 package overhangs board envelope",
+          "a": "C56"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C65 center outside board (or in cutout)",
+          "a": "C65"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C65 package overhangs board envelope",
+          "a": "C65"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R8 center outside board (or in cutout)",
+          "a": "R8"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R8 package overhangs board envelope",
+          "a": "R8"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R1 center outside board (or in cutout)",
+          "a": "R1"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R1 package overhangs board envelope",
+          "a": "R1"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R22 center outside board (or in cutout)",
+          "a": "R22"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R22 package overhangs board envelope",
+          "a": "R22"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "D1 center outside board (or in cutout)",
+          "a": "D1"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "D1 package overhangs board envelope",
+          "a": "D1"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "U14 center outside board (or in cutout)",
+          "a": "U14"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "U14 package overhangs board envelope",
+          "a": "U14"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "L5 center outside board (or in cutout)",
+          "a": "L5"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "L5 package overhangs board envelope",
+          "a": "L5"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C54 center outside board (or in cutout)",
+          "a": "C54"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C54 package overhangs board envelope",
+          "a": "C54"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R35 center outside board (or in cutout)",
+          "a": "R35"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R35 package overhangs board envelope",
+          "a": "R35"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R32 center outside board (or in cutout)",
+          "a": "R32"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R32 package overhangs board envelope",
+          "a": "R32"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C62 center outside board (or in cutout)",
+          "a": "C62"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C62 package overhangs board envelope",
+          "a": "C62"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R19 center outside board (or in cutout)",
+          "a": "R19"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R19 package overhangs board envelope",
+          "a": "R19"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "U16 center outside board (or in cutout)",
+          "a": "U16"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "U16 package overhangs board envelope",
+          "a": "U16"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C60 center outside board (or in cutout)",
+          "a": "C60"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C60 package overhangs board envelope",
+          "a": "C60"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "TP4 center outside board (or in cutout)",
+          "a": "TP4"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "TP4 package overhangs board envelope",
+          "a": "TP4"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R38 center outside board (or in cutout)",
+          "a": "R38"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R38 package overhangs board envelope",
+          "a": "R38"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "L6 center outside board (or in cutout)",
+          "a": "L6"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "L6 package overhangs board envelope",
+          "a": "L6"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R33 center outside board (or in cutout)",
+          "a": "R33"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R33 package overhangs board envelope",
+          "a": "R33"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "R39 center outside board (or in cutout)",
+          "a": "R39"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "R39 package overhangs board envelope",
+          "a": "R39"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C61 center outside board (or in cutout)",
+          "a": "C61"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C61 package overhangs board envelope",
+          "a": "C61"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "J1 center outside board (or in cutout)",
+          "a": "J1"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "J1 package overhangs board envelope",
+          "a": "J1"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C64 center outside board (or in cutout)",
+          "a": "C64"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C64 package overhangs board envelope",
+          "a": "C64"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "C33 center outside board (or in cutout)",
+          "a": "C33"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "C33 package overhangs board envelope",
+          "a": "C33"
+        },
+        {
+          "level": "error",
+          "code": "OFF_BOARD",
+          "msg": "L2 center outside board (or in cutout)",
+          "a": "L2"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "L2 package overhangs board envelope",
+          "a": "L2"
+        },
+        {
+          "level": "warn",
+          "code": "OVERHANG",
+          "msg": "Module1 package overhangs board envelope",
+          "a": "Module1"
+        },
+        {
+          "level": "error",
+          "code": "PKG_PKG",
+          "msg": "SW3 ∩ L3",
+          "a": "SW3",
+          "b": "L3"
+        },
+        {
+          "level": "error",
+          "code": "PKG_PKG",
+          "msg": "SW2 ∩ L3",
+          "a": "SW2",
+          "b": "L3"
+        },
+        {
+          "level": "error",
+          "code": "PKG_PKG",
+          "msg": "TVS-PUSB1 ∩ J1",
+          "a": "TVS-PUSB1",
+          "b": "J1"
+        },
+        {
+          "level": "error",
+          "code": "PKG_PKG",
+          "msg": "L3 ∩ U9",
+          "a": "L3",
+          "b": "U9"
+        },
+        {
+          "level": "error",
+          "code": "PKG_PKG",
+          "msg": "R30 ∩ U9",
+          "a": "R30",
+          "b": "U9"
+        },
+        {
+          "level": "error",
+          "code": "PKG_PKG",
+          "msg": "R10 ∩ U9",
+          "a": "R10",
+          "b": "U9"
+        },
+        {
+          "level": "error",
+          "code": "PKG_PKG",
+          "msg": "C44 ∩ U9",
+          "a": "C44",
+          "b": "U9"
+        },
+        {
+          "level": "error",
+          "code": "PKG_PKG",
+          "msg": "F1 ∩ U9",
+          "a": "F1",
+          "b": "U9"
+        },
+        {
+          "level": "error",
+          "code": "PKG_PKG",
+          "msg": "U9 ∩ U7",
+          "a": "U9",
+          "b": "U7"
+        }
+      ],
+      "board": {
+        "min": [
+          54,
+          31,
+          0
+        ],
+        "max": [
+          136,
+          186,
+          1.511
+        ],
+        "name": "board",
+        "thickness_mm": 1.511
+      },
+      "packageCount": 99,
+      "solidHits": [],
+      "hdi": {
+        "components_placed": 99,
+        "area_cm2": 83.57,
+        "density_per_cm2": 1.2,
+        "fine_pitch_pkgs": 0,
+        "layer_count": 6,
+        "thickness_mm": 1.511,
+        "cutouts": 4,
+        "vias": 109,
+        "via_kinds": {
+          "micro": 0,
+          "blind": 27,
+          "buried": 41,
+          "through": 41,
+          "other": 0
+        },
+        "min_drill_mm": 0.12,
+        "hdi_class": "multilayer",
+        "stackup_layers": 17,
+        "hdi_enabled": true
+      }
+    },
+    "route": {
+      "ok": true,
+      "errors": 0,
+      "warnings": 0,
+      "issues": []
+    },
+    "drc": {
+      "ok": true,
+      "errors": 0,
+      "warnings": 86,
+      "issues": [
+        {
+          "level": "warn",
+          "code": "PINS_OPEN",
+          "msg": "19900fb5-460f-4d6c-82c1-d522609838d4 pins not linked to any net",
+          "component": "19900fb5-460f-4d6c-82c1-d522609838d4"
+        },
+        {
+          "level": "warn",
+          "code": "PINS_OPEN",
+          "msg": "2700e550-b644-410d-ad80-b2f5b1435970 pins not linked to any net",
+          "component": "2700e550-b644-410d-ad80-b2f5b1435970"
+        },
+        {
+          "level": "warn",
+          "code": "PINS_OPEN",
+          "msg": "9872c5b2-ed0c-4d80-9ace-ba8fcd9f95b9 pins not linked to any net",
+          "component": "9872c5b2-ed0c-4d80-9ace-ba8fcd9f95b9"
+        },
+        {
+          "level": "warn",
+          "code": "PINS_OPEN",
+          "msg": "a8017466-ef5d-4dd0-bf65-600ee1844c9d pins not linked to any net",
+          "component": "a8017466-ef5d-4dd0-bf65-600ee1844c9d"
+        },
+        {
+          "level": "warn",
+          "code": "PINS_OPEN",
+          "msg": "d16daaa0-520f-4f1b-b75b-9242cda00790 pins not linked to any net",
+          "component": "d16daaa0-520f-4f1b-b75b-9242cda00790"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.100 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.100 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.100 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.100 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.085 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.100 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.100 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.100 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.100 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.100 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.100 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.100 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DRC_ANNULAR_RING",
+          "msg": "Via v annular ring 0.080 mm < 0.12 mm min"
+        },
+        {
+          "level": "warn",
+          "code": "DIFF_SKEW",
+          "msg": "Diff pair TX1 skew ≈ 0.85 mm (tol 0.5 mm) · TX1+/TX1-",
+          "net": "TX1+"
+        },
+        {
+          "level": "warn",
+          "code": "DIFF_SKEW",
+          "msg": "Diff pair RX1 skew ≈ 1.95 mm (tol 0.5 mm) · RX1+/RX1-",
+          "net": "RX1+"
+        },
+        {
+          "level": "info",
+          "code": "DIFF_PAIRS",
+          "msg": "15 differential pair(s) detected by name"
+        }
+      ],
+      "stats": {
+        "componentCount": 129,
+        "netCount": 148,
+        "pinCount": 830,
+        "pinWithNet": 524,
+        "pinLinkRatio": 0.631,
+        "placedCount": 129,
+        "unplacedCount": 0,
+        "dnpCount": 30,
+        "withPackage": 129,
+        "withMpn": 0,
+        "byType": {
+          "ic": 11,
+          "resistor": 32,
+          "capacitor": 44,
+          "connector": 5,
+          "switch": 7,
+          "other": 12,
+          "diode": 4,
+          "inductor": 9,
+          "transistor": 4,
+          "fuse": 1
+        },
+        "byClass": {
+          "signal": 125,
+          "gnd": 2,
+          "power": 21
+        },
+        "powerNets": 21,
+        "gndNets": 2,
+        "emptyNets": 0,
+        "outlinePts": 47,
+        "vias": 109,
+        "tracks": 147,
+        "zones": 11,
+        "layer_count": 6,
+        "thickness_mm": 1.511,
+        "harness_mm": 0,
+        "harness_ohm": 0,
+        "wire": null,
+        "quality": {
+          "score": 100,
+          "grade": "A",
+          "issues": []
+        }
+      },
+      "rules": {
+        "power": {
+          "minWidth_mm": 0.3,
+          "minClear_mm": 0.2,
+          "minVia_mm": 0.3,
+          "maxLength_mm": null
+        },
+        "gnd": {
+          "minWidth_mm": 0.25,
+          "minClear_mm": 0.15,
+          "minVia_mm": 0.25,
+          "maxLength_mm": null
+        },
+        "signal": {
+          "minWidth_mm": 0.12,
+          "minClear_mm": 0.12,
+          "minVia_mm": 0.2,
+          "maxLength_mm": 250
+        },
+        "analog": {
+          "minWidth_mm": 0.15,
+          "minClear_mm": 0.2,
+          "minVia_mm": 0.2,
+          "maxLength_mm": 150
+        },
+        "diff": {
+          "minWidth_mm": 0.1,
+          "minClear_mm": 0.1,
+          "minVia_mm": 0.2,
+          "maxLength_mm": 100,
+          "matchTol_mm": 0.5
+        },
+        "other": {
+          "minWidth_mm": 0.12,
+          "minClear_mm": 0.12,
+          "minVia_mm": 0.2,
+          "maxLength_mm": null
+        }
+      },
+      "constraints": {
+        "preset": "default",
+        "netClasses": {},
+        "clearancePairs": {},
+        "netOverrides": {},
+        "options": {
+          "usedClassesOnly": true,
+          "powerIsolationBoost": true,
+          "units": "mm"
+        },
+        "comment": ""
+      }
+    },
+    "erc": {
+      "ok": true,
+      "errors": 0,
+      "warnings": 0,
+      "info": 0,
+      "issues": [],
+      "matrixHits": [],
+      "netCount": 148,
+      "componentCount": 129,
+      "matrix": true
+    },
+    "completeness": {
+      "schema": "awe.bom-completeness/v1",
+      "project": "cm5-carrier",
+      "source": "kicad-pcb",
+      "lines": 54,
+      "components": 99,
+      "withMpn": 0,
+      "withLcsc": 0,
+      "withPackage": 54,
+      "withManufacturer": 0,
+      "withDatasheet": 0,
+      "withValue": 54,
+      "pctMpn": 0,
+      "pctLcsc": 0,
+      "pctPackage": 100,
+      "pctManufacturer": 0,
+      "pctDatasheet": 0,
+      "pctValue": 100,
+      "score": 35,
+      "grade": "F",
+      "missingMpn": [
+        "U10",
+        "R40",
+        "C48, C41, C30, C34, C50, C39, C35, C40, C47, C46, C29, C49, C33",
+        "C36, C58, C51, C57, C43, C56, C65, C62, C60, C61",
+        "R12",
+        "C3, C4, C2, C1",
+        "SW3",
+        "C63",
+        "R27",
+        "TP3, TP5, TP6, TP4",
+        "R25, R43, R9, R8, R30",
+        "C31",
+        "C55, C38, C59, C66, C45",
+        "TVS-PUSB1",
+        "ZD1",
+        "U11",
+        "C53, C32, C54",
+        "C42, C44",
+        "BAT1",
+        "SW2",
+        "Q2",
+        "L4, L2",
+        "R31, R18, R32, R33",
+        "L3",
+        "C52, C37, C64",
+        "R37",
+        "L1",
+        "R28",
+        "SW1",
+        "U15"
+      ],
+      "missingLcsc": [
+        "U10",
+        "R40",
+        "C48, C41, C30, C34, C50, C39, C35, C40, C47, C46, C29, C49, C33",
+        "C36, C58, C51, C57, C43, C56, C65, C62, C60, C61",
+        "R12",
+        "C3, C4, C2, C1",
+        "SW3",
+        "C63",
+        "R27",
+        "TP3, TP5, TP6, TP4",
+        "R25, R43, R9, R8, R30",
+        "C31",
+        "C55, C38, C59, C66, C45",
+        "TVS-PUSB1",
+        "ZD1",
+        "U11",
+        "C53, C32, C54",
+        "C42, C44",
+        "BAT1",
+        "SW2",
+        "Q2",
+        "L4, L2",
+        "R31, R18, R32, R33",
+        "L3",
+        "C52, C37, C64",
+        "R37",
+        "L1",
+        "R28",
+        "SW1",
+        "U15"
+      ],
+      "jlcReady": false,
+      "generatedAt": "2026-11-15T04:46:30.558Z",
+      "presentationOnly": true,
+      "authorityRewrite": false,
+      "honesty": "BOM field completeness for any board · not live stock/pricing"
+    }
+  }
+}

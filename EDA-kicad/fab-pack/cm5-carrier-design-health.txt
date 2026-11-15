@@ -1,0 +1,61 @@
+Design health (lite)
+═══════════════════
+FAIL · grade F · score 0/100
+68 error(s) · 506 warning(s) · 5 info
+Project: cm5-carrier · kicad-pcb
+
+Sections:
+ ✓ DRC-lite · 0 err · 86 warn
+ ✓ ERC-lite · 0 err · 0 warn
+ ✓ Connectivity · 0 err · 307 warn · unplaced 0
+ ✗ Package clash · 68 err · 59 warn
+ ✓ BOM checks · 0 err · 21 warn
+ ✓ Route (clearance + ratsnest) · 0 err · 0 warn
+ ✓ Constraints (lite) · 0 err · 33 warn
+ ✗ BOM completeness · 1 err · 1 warn
+
+Stats: 129 cmp · 148 nets · placed 129 · 6L
+
+Top issues (cap 40):
+ ⚠ [drc/PINS_OPEN] 19900fb5-460f-4d6c-82c1-d522609838d4 pins not linked to any net
+ ⚠ [drc/PINS_OPEN] 2700e550-b644-410d-ad80-b2f5b1435970 pins not linked to any net
+ ⚠ [drc/PINS_OPEN] 9872c5b2-ed0c-4d80-9ace-ba8fcd9f95b9 pins not linked to any net
+ ⚠ [drc/PINS_OPEN] a8017466-ef5d-4dd0-bf65-600ee1844c9d pins not linked to any net
+ ⚠ [drc/PINS_OPEN] d16daaa0-520f-4f1b-b75b-9242cda00790 pins not linked to any net
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.085 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.080 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.080 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.080 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.080 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.080 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.100 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.100 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.100 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.100 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.080 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.080 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.080 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.080 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.080 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.080 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.080 mm < 0.12 mm min
+ ⚠ [drc/DRC_ANNULAR_RING] Via v annular ring 0.080 mm < 0.12 mm min
+
+Not full vendor design-health suite — DRC/ERC/conn/clash/BOM/route lite for any board.
