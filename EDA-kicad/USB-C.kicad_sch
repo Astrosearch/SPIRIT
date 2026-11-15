@@ -3583,7 +3583,7 @@
 					)
 				)
 			)
-			(embedded_fonts no)
+	(embedded_fonts no)
 		)
 	)
 	(text "M config"
@@ -13249,20 +13249,92 @@
 			)
 		)
 	)
-	(no_connect
-		(at 153.67 181.61)
-		(uuid "226813fd-d166-42e4-80a9-1c7ab29f4a4b")
+	(global_label "SSTX-"
+		(shape bidirectional)
+		(at 153.67 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa9ea091-5378-41e4-8188-6f7f48be4f67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(no_connect
-		(at 153.67 179.07)
-		(uuid "3b510b8a-e17d-486e-8c56-d73edbe4b346")
+	(global_label "SSTX+"
+		(shape bidirectional)
+		(at 153.67 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "902493e5-aa07-42d1-b211-cd02fabf3585")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(no_connect
-		(at 153.67 170.18)
-		(uuid "ef80ce53-d654-4cab-b335-3484b51f2691")
+	(global_label "SSRX-"
+		(shape bidirectional)
+		(at 153.67 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1e56c39-e7f0-41ee-811c-a8cb8e6268b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(no_connect
-		(at 153.67 172.72)
-		(uuid "bc9c98f7-0003-4ccd-a172-6d18d22b5f3a")
+	(global_label "SSRX+"
+		(shape bidirectional)
+		(at 153.67 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca676816-7a82-4ce3-9096-23cb520aab7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 )
