@@ -28,9 +28,9 @@ Generated: 2026-11-15 · Toolchain: **awecad** (editor + `awe pcb` CLI) + KiCad 
 | footprints | 138 (incl. 9 stray/dup) | 129 (netlist-exact) |
 | nets | 449 (fragmented) | 148 (schematic-exact) |
 | shorting_items | 2 (fab-ready counted 4 + 8 zero-distance) | **0** |
-| unconnected_items | 302 | **119** (was 261 after fw drive; awecad_solver still running) |
+| unconnected_items | 302 | **117** (was 261 after fw drive; awecad_solver still running in background) |
 | clearance violations | 340 | ~110–150 (tracks added by solver) |
-| `awe pcb fab-ready --check` | NOT-FAB-READY (unconn 302, short 4) | NOT-FAB-READY (unconn ~119, short **0**) |
+| `awe pcb fab-ready --check` | NOT-FAB-READY (unconn 302, short 4) | NOT-FAB-READY (unconn ~117, short **0**) |
 
 ## Remaining work (bare fab = NO-GO until unconn = 0)
 
