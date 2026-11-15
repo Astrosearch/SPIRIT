@@ -40,3 +40,10 @@ build/
 
 # Python env
 EDA-kicad/component-libs/env
+
+# awe pcb tool artifacts (reports/backups/journals)
+EDA-kicad/awe-pcb-*/
+EDA-kicad/fab-fw/
+EDA-kicad/*.bak-awe-*
+EDA-kicad/awe-pcb-serial-journal.jsonl
+awe-pcb-evidence/
